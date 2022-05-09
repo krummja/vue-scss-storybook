@@ -30,7 +30,8 @@ module.exports = {
     'vue/html-indent': 2,
     'vue/multi-word-component-names': ['error', {
       ignores: [
-        'Button'
+        'Button',
+        'Flex',
       ]
     }],
     'no-multiple-empty-lines': [2, {
