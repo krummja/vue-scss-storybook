@@ -82,6 +82,9 @@ const Template = (args) => ({
       params
     };
   },
+  decorators: [
+    () => ({ template: '<div style="margin: 3em;"><story /></div>' })
+  ],
   template: `
     <Flex v-bind="params"> 
       <div style="height: 200px; width: 200px; background-color: rgba(255, 0, 255, 0.15);"></div>
